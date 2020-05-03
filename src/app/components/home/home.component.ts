@@ -42,11 +42,11 @@ options: {
       this.globalData.forEach(cs=>{
         let value: number;
         if(caseType=='c')
-        if(cs.confirmed > 2000)
+        if(cs.confirmed > 5000)
           value = cs.confirmed
 
            if(caseType=='a')
-          if(cs.active > 2000)
+          if(cs.active > 4000)
             value=cs.active
 
             if(caseType=='d')
